@@ -1,0 +1,126 @@
+@lg: 850px;
+@media (min-width: @lg) {
+  .nav-bar {
+    margin-left: 4.7vw;
+    margin-right: 4.3vw;
+  }
+  .nav-socials {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 3.1875rem;
+    margin-top: 2.125rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+  }
+  main {
+    .regular {
+      font-size: 1.25rem;
+      line-height: 1.1;
+      margin-top: 2rem;
+    }
+    .small {
+      font-size: 0.9375rem;
+      line-height: 1.1;
+      margin-bottom: 1.875rem;
+    }
+    .text-wrapper {
+      display: flex;
+      padding-left: 5rem;
+      padding-right: 3.125rem;
+      margin-bottom: 2.0625rem;
+    }
+    .img-wrapper {
+      height: 53.1vw;
+      img {
+        // margin-bottom: 42vw;
+        margin-bottom: 40%;
+      }
+    }
+  }
+
+  .story {
+    font-size: 1rem;
+    .img-wrapper {
+      align-items: center;
+      flex: 0 0 calc(100% / 3);
+      height: 33.3vw;
+    }
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 0 4.9375rem;
+      p {
+        margin: 2.0625rem 0 2.1875rem;
+      }
+    }
+  }
+  .gallery {
+    h2 {
+      letter-spacing: 0.025rem;
+    }
+    .row {
+      // height: 237px;
+      height: 20vw;
+    }
+    .col:nth-of-type(-n + 4) {
+      display: flex;
+    }
+  }
+  .features {
+    .row {
+      margin: 0 3.4vw;
+      // gap: 3px;
+    }
+  }
+  .card {
+    padding: 3.25rem;
+    flex: 1 0 30%;
+    p,
+    h3 {
+      font-size: 1rem;
+      line-height: 1.1;
+      letter-spacing: -0.02rem;
+    }
+    h3 {
+      margin: 1.5625rem 0;
+    }
+  }
+  .writeToUs {
+    h2 {
+      margin-top: 4.6875rem;
+      margin-bottom: 3rem;
+    }
+    form {
+      padding: 0 16vw;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  *,
+  *:before,
+  *:after {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1400px) {
+  *,
+  *:before,
+  *:after {
+    font-size: 20px;
+    max-height: unset;
+  }
+  main {
+    .img-wrapper {
+      height: 48vw;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  *,
+  *:before {
+    font-size: 1.125vw;
+  }
+}

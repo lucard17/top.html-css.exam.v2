@@ -1,0 +1,235 @@
+@md: 650px;
+
+@media (min-width: @md) {
+  h1 {
+    font-size: 2.3125rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.01rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+    // font-size: 1.875rem;
+  }
+  .order-md-1 {
+    order: 1;
+  }
+  .nav-bar {
+    margin-left: 3.4rem;
+    margin-right: 2rem;
+    height: 3.0625rem;
+  }
+
+  .nav-string {
+    gap: 0.3rem;
+  }
+  .nav-logo {
+    padding-right: 1rem;
+    font-size: 1rem;
+  }
+  .nav-item {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  header,
+  main,
+  .story,
+  .galery {
+    line-height: 1;
+    border-bottom: 1px solid var(--divider);
+  }
+  main {
+    .regular {
+      font-size: 0.875rem;
+      line-height: 1.14;
+      letter-spacing: 0.02rem;
+      margin-top: 1.5rem;
+    }
+    .small {
+      font-size: 0.875rem;
+      line-height: 1.14;
+      letter-spacing: 0.02rem;
+      margin: 0.8125rem 0 1.6875rem;
+    }
+    .row {
+      flex-direction: row;
+    }
+    .col {
+      flex: 0 0 50%;
+      justify-content: center;
+    }
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 0 2.5rem;
+    }
+    .img-wrapper {
+      order: 1;
+      height: 73.2vw;
+      max-height: 39.3rem;
+      img {
+        margin-bottom: unset;
+      }
+    }
+  }
+  .story {
+    h2 {
+      margin-top: 0.5rem;
+    }
+    .row {
+      flex-direction: row;
+    }
+    .img-wrapper {
+      align-items: center;
+      flex: 0 0 calc(100% / 2);
+      height: 58.4vw;
+    }
+    .text-wrapper {
+      font-size: 0.875rem;
+      letter-spacing: 0.02rem;
+      line-height: 1.14;
+      display: flex;
+      flex-direction: column;
+      padding: 0 2.375rem;
+      p {
+        margin: 1.875rem 0;
+      }
+    }
+  }
+  .gallery {
+    h2 {
+      margin-top: 2.1875rem;
+      margin-bottom: 2.25rem;
+      letter-spacing: 0.025rem;
+    }
+    .row {
+      height: 35vw;
+      // height: 237px;
+    }
+    .col:nth-of-type(-n+2) {
+      display: flex;
+    }
+    .col {
+      flex: unset;
+    }
+
+    .img-wrapper img {
+      height: 100%;
+      width: auto;
+    }
+  }
+  .features {
+    h2 {
+      margin-top: 4.75rem;
+      margin-bottom: 2.4375rem;
+    }
+    .row {
+      margin: 0 6.4vw.4vw;
+      // gap: 3px;
+    }
+  }
+  .card {
+    padding: 3.25rem 1.5rem;
+    flex: 1 0 48%;
+    p,
+    h3 {
+      font-size: 1rem;
+      line-height: 1.1;
+      letter-spacing: -0.02rem;
+    }
+    h3 {
+      margin: 1.5625rem 0;
+    }
+  }
+  .writeToUs {
+    h2 {
+      margin-top: 4.6875rem;
+      margin-bottom: 3rem;
+    }
+    // form {
+    //   padding: 0 10vw;
+    // }
+    .userData {
+      gap: 1rem;
+      flex-direction: unset;
+      .col {
+        flex: 1 0;
+      }
+      // padding-top: 7px;
+    }
+  }
+  .contactMe {
+    gap: 0.8125rem;
+    align-items: baseline;
+    margin-top: 1.3125rem;
+    margin-bottom: 0;
+    span {
+      flex: unset;
+      margin-bottom: 1.3125rem;
+    }
+  }
+  .send {
+    margin-top: 0.75rem;
+  }
+  .nav-burger {
+    display: none;
+  }
+  .userMessage {
+    margin-top: 0.75rem;
+    textarea {
+      height: 8.6em;
+      resize: none;
+    }
+  }
+  footer {
+    padding: 5rem;
+    gap: 1.875rem;
+    .socials {
+      gap: 0.5rem;
+      div {
+        width: 2.375rem;
+        height: 2.375rem;
+        img {
+          display: block;
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+  .img-wrapper {.img-overlay{
+    .tittle{font-size: 1.25rem;}
+    .description{font-size: 0.875rem;}}}
+  .btn,
+  .input-text input,
+  .input-text span,
+  .contactMe > span {
+    font-size: 0.875rem;
+    line-height: 1.1;
+    span {
+      padding-left: 0.8125rem;
+      padding-right: 1.0625rem;
+    }
+  }
+  .radio,
+  .checkbox {
+    font-size: 1rem;
+  }
+  .radio {
+    span {
+      padding-left: 0.8125rem;
+      padding-right: 0.6875rem;
+    }
+  }
+  .input-text {
+    input,
+    textarea {
+      // display: block;
+      width: 100%;
+      padding: 0.5625rem 0.75rem;
+    }
+  }
+  .btn {
+    padding: 0.75rem 1.5rem;
+  }
+}
